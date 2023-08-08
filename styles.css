@@ -1,0 +1,35 @@
+body{
+  height: 100%;
+ 
+  
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: arial, sans-serif;
+}
+.bg {
+  background-color: red;
+  background-image: url("img/stats.png");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+table {
+  
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f4b4b4;
+}
+tr:nth-child(odd) {
+  background-color: #94e0ed;
+}
